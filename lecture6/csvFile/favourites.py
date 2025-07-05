@@ -12,5 +12,5 @@ with open(r"C:\Users\yusuf\OneDrive\Masaüstü\Coding\cs50Python\lecture6\csvFil
             counts[favourite] = 1
 
 # Show favourited subject by highest to lowest.
-for favourite in sorted(counts, key=counts.get, reverse=True):
-    print(f"{favourite}: {counts[favourite]}")
+fSubject = input("Enter a subject ")
+print(f"{fSubject}: {counts[fSubject]}")
