@@ -2,6 +2,6 @@
 
 {% block body %}
 
-    Hello, {{ customerName }}!
+    Hello, {% if customerName %}{{ customerName }}{% else %}world!{% endif %}
 
 {% endblock %}
